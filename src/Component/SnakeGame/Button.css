@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  font-size: 38px;
+  width: 500px;
+  height: 500px;
+}
+
+.eye-boll-1{
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  border-radius: 50px;
+}
+.eye-boll-2{
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  border-radius: 50px;
+}
+.container{
+  position: relative;
+  width: 404px;
+  height: 404px;
+  border: 2px solid rgb(255, 8, 0);
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px 20px;
+}
+.container-box{
+  width: 9px;
+  height: 9px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  background: blue;
+  position: absolute;
+  
+}
+.container-box2{
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 132, 255);
+  background: rgb(0, 132, 255);
+  position: absolute;
+  
+}
+.container-box3{
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: transparent;
+  position: absolute;
+  
+}
+input{
+  width: 0px;
+  height: 0px;
+  color: transparent;
+}
+.fa-solid, .fas {
+  font-weight: 900;
+  font-size: 15px;
+  color: #ff0707;
+  top: -7px;
+    left: -3px;
+    position: absolute;
+}
