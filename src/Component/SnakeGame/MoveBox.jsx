@@ -1,6 +1,7 @@
 import React from "react";
 import "./Button.css";
 
+
 class MySnakeGame extends React.Component {
   food_x = 150;
   food_y = 150;
@@ -55,7 +56,7 @@ class MySnakeGame extends React.Component {
       this.Arr.push([this.x, this.y]);
 
       switch (this.key_name) {
-        case "ArrowUp":
+        case "ArrowUp": 
           this.y -= 10;
           break;
         case "ArrowDown":
@@ -67,6 +68,7 @@ class MySnakeGame extends React.Component {
         case "ArrowRight":
           this.x += 10;
           break;
+        default:
       }
       
 
@@ -94,7 +96,7 @@ class MySnakeGame extends React.Component {
       <>
         <div className="main">
           <h1>The Snake Game</h1>
-          <h3>Score: {this.score}</h3>
+          <h3 className="score">Score: {this.score}</h3>
           <input onKeyDown={this.fun1} autoFocus />
           <div className="container">
             <div
